@@ -3,7 +3,9 @@ Sistema de Clínica Médica
 --INTERFACES--
 
 --IAgendavel
+
 O que faz: Define o contrato para tudo que pode ser agendado no sistema
+
 Por que usei: Garante que consultas e exames tenham comportamentos padronizados para agendamento
 Métodos:
 - agendar() - agenda o item
