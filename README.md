@@ -12,9 +12,9 @@ Métodos:
 - cancelar() - cancela o agendamento
 
 --IResponsavelExame
-*O que faz:* Define que médicos e técnicos podem ser responsáveis por exames
-*Por que usar:* Permite polimorfismo - tanto médico quanto técnico podem gerar laudos, mas de formas diferentes
-*Método:*
+O que faz: Define que médicos e técnicos podem ser responsáveis por exames
+Por que usei: Permite polimorfismo - tanto médico quanto técnico podem gerar laudos, mas de formas diferentes
+Método:
 - gerarLaudo(Exame exame) - cada profissional gera seu tipo de laudo
 
 --ENUMS (Tipos Fixos)
