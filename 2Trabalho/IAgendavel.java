@@ -5,5 +5,6 @@ public interface IAgendavel {
     void agendar();
     LocalDate getData();
     LocalTime getHora();
+    Paciente getPaciente();
     void cancelar();
 }
